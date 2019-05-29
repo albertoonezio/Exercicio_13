@@ -28,6 +28,7 @@ namespace Exercicio_Parte2_13
             listaDecrescente.Add(terceiroNumero);
 
             listaDecrescente.Sort();
+            listaDecrescente.Reverse();
 
             foreach (int decrescente in listaDecrescente)
             {
